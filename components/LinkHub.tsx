@@ -258,6 +258,53 @@ function HubIcon({ name }: { name: string }) {
         </svg>
       );
 
+    case "rematriculation":
+      return (
+        <svg {...iconProps}>
+          <path d="M14 2H7a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7z" />
+          <path d="M14 2v5h5" />
+          <path d="M8.5 14a4 4 0 0 1 6.8-2.8" />
+          <path d="m15.5 8.8-.2 2.4-2.4-.2" />
+          <path d="M15.5 14a4 4 0 0 1-6.8 2.8" />
+          <path d="m8.5 19.2.2-2.4 2.4.2" />
+        </svg>
+      );
+
+    case "results":
+      return (
+        <svg {...iconProps}>
+          <path d="M4 20V10" />
+          <path d="M10 20V4" />
+          <path d="M16 20v-7" />
+          <path d="M22 20H2" />
+          <path d="m4 7 5-3 5 4 6-5" />
+          <path d="m17 3h3v3" />
+        </svg>
+      );
+
+    case "badge-photos":
+      return (
+        <svg {...iconProps}>
+          <rect x="3" y="5" width="18" height="15" rx="2.5" />
+          <circle cx="9" cy="11" r="2.5" />
+          <path d="M5.5 17a3.5 3.5 0 0 1 7 0" />
+          <path d="M15 10h3" />
+          <path d="M15 14h3" />
+          <path d="M8 5V3h8v2" />
+        </svg>
+      );
+
+    case "instructors":
+      return (
+        <svg {...iconProps}>
+          <path d="M3 6.5h7l2 2h9v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <circle cx="10" cy="13" r="2" />
+          <path d="M6.5 18a3.5 3.5 0 0 1 7 0" />
+          <circle cx="16.5" cy="12.5" r="1.5" />
+          <path d="M15.5 16.5a3 3 0 0 1 4 2" />
+        </svg>
+      );
+
     default:
       return (
         <svg {...iconProps}>

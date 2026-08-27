@@ -209,5 +209,41 @@ export const links: LinkItem[] = [
     icon: "pricing",
     badge: "PDF",
     accent: "#10b981"
+  },
+  {
+    title: "Campanha de Rematrícula - Script",
+    description: "Acesse o script e as orientações da campanha de rematrícula 2026.",
+    url: "https://drive.google.com/file/d/1Qg5AFgAAdojEFn_bzsCdMw8mAGTuxDMI/view?usp=drivesdk",
+    category: "Comercial",
+    icon: "rematriculation",
+    badge: "PDF",
+    accent: "#2563eb"
+  },
+  {
+    title: "Controle de Resultados",
+    description: "Acesse o sistema para acompanhar e controlar os resultados da Evolutec.",
+    url: "https://resultadoevolutec.base44.app/",
+    category: "Gestão",
+    icon: "results",
+    badge: "Base44",
+    accent: "#10b981"
+  },
+  {
+    title: "Fotos pra Crachá",
+    description: "Acesse a pasta compartilhada com as fotos destinadas à produção dos crachás.",
+    url: "https://onedrive.live.com/shared?id=%2Fpersonal%2F9bec3c382d426941%2FDocuments%2FDocuments%2FEVOLUTEC%2Fcrach%C3%A1%2FFOTOS%20PARA%20CRACH%C3%81&listurl=%2Fpersonal%2F9bec3c382d426941%2FDocuments",
+    category: "Documentos",
+    icon: "badge-photos",
+    badge: "OneDrive",
+    accent: "#0ea5e9"
+  },
+  {
+    title: "#Para Todos Instrutores",
+    description: "Acesse a pasta compartilhada com materiais e arquivos destinados a todos os instrutores.",
+    url: "https://onedrive.live.com/shared?id=%2Fpersonal%2Fb1ae0066d4fb544f%2FDocuments%2FDRIVE%20%2D%20INSTRUTOR%2F%23PARA%20TODOS%23&listurl=%2Fpersonal%2Fb1ae0066d4fb544f%2FDocuments&ithint=folder&e=iRdVou&migratedtospo=true&ga=1",
+    category: "Instrutores",
+    icon: "instructors",
+    badge: "OneDrive",
+    accent: "#8b5cf6"
   }
 ];
