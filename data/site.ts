@@ -26,7 +26,7 @@ export const links: LinkItem[] = [
     description: "Acesse a pasta com os contratos e documentos relacionados aos polos.",
     url: "https://drive.google.com/drive/folders/1dEHAUjjj4begASnUc33MSbj4xXVsLuJt",
     category: "Documentos",
-    icon: "📄",
+    icon: "contracts",
     badge: "Drive",
     accent: "#4285F4"
   },
@@ -35,7 +35,7 @@ export const links: LinkItem[] = [
     description: "Consulte o estatuto e as normas internas da Evolutec.",
     url: "https://estatutoevolutec.base44.app/",
     category: "Documentos",
-    icon: "📘",
+    icon: "statute",
     badge: "Base44",
     accent: "#084469"
   },
@@ -44,7 +44,7 @@ export const links: LinkItem[] = [
     description: "Acesse vídeos, orientações e tutoriais para a equipe.",
     url: "https://evolutecplay.base44.app/",
     category: "Treinamento",
-    icon: "▶️",
+    icon: "tutorials",
     badge: "Evolutec Play",
     accent: "#ef4444"
   },
@@ -53,7 +53,7 @@ export const links: LinkItem[] = [
     description: "Acompanhe informações, andamento e registros dos alunos.",
     url: "https://gestoralunosevolutec.base44.app/",
     category: "Pedagógico",
-    icon: "👥",
+    icon: "students",
     badge: "Gestão",
     accent: "#8b5cf6"
   },
@@ -62,7 +62,7 @@ export const links: LinkItem[] = [
     description: "Consulte o calendário pedagógico e os principais compromissos.",
     url: "https://calendariopedagogico.base44.app/",
     category: "Pedagógico",
-    icon: "📅",
+    icon: "calendar",
     badge: "Calendário",
     accent: "#f59e0b"
   },
@@ -71,7 +71,7 @@ export const links: LinkItem[] = [
     description: "Acompanhe e gerencie as vagas disponíveis nos polos.",
     url: "https://evolutec-slot-flow.base44.app/",
     category: "Gestão",
-    icon: "🎯",
+    icon: "slots",
     badge: "Vagas",
     accent: "#10b981"
   },
@@ -80,7 +80,7 @@ export const links: LinkItem[] = [
     description: "Acesse a planilha de organização das aulas práticas de Farmácia.",
     url: "https://docs.google.com/spreadsheets/d/1idEJFk49aXMGf9o2nMCGfQs6tFu44cnEGu2H0TQdevY/edit?usp=drivesdk",
     category: "Aulas práticas",
-    icon: "💊",
+    icon: "pharmacy",
     badge: "Planilha",
     accent: "#06b6d4"
   },
@@ -89,7 +89,7 @@ export const links: LinkItem[] = [
     description: "Acesse os materiais e controles das aulas práticas profissionalizantes.",
     url: "https://drive.google.com/drive/u/0/search?q=Aulas%20Pr%C3%A1ticas%20Profissionalizantes%20-%202025",
     category: "Aulas práticas",
-    icon: "🧰",
+    icon: "classes",
     badge: "Drive",
     accent: "#ec4899"
   },
@@ -98,7 +98,7 @@ export const links: LinkItem[] = [
     description: "Consulte o cronograma semanal de atividades da recepção.",
     url: "https://drive.google.com/file/d/1CRApWqppkzTNKwMfkXrfyX1FMaWi4NWe/view?usp=drivesdk",
     category: "Recepção",
-    icon: "🗓️",
+    icon: "reception",
     badge: "PDF",
     accent: "#6366f1"
   }
