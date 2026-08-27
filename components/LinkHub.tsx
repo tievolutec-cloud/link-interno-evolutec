@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import type { LinkItem } from "@/data/site";
 
 type Config = {
@@ -13,6 +13,8 @@ type Config = {
   showSearch: boolean;
   showCategories: boolean;
 };
+
+const THEME_STORAGE_KEY = "evolutec-linkhub-theme";
 
 function HubIcon({ name }: { name: string }) {
   const iconProps = {
@@ -139,7 +141,14 @@ function HubIcon({ name }: { name: string }) {
 export default function LinkHub({ config, links }: { config: Config; links: LinkItem[] }) {
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState("Todos");
-  const [theme, setTheme] = useState<"light" | "dark">("dark");
+  const [theme, setTheme] = useState<"light" | "dark">(config.defaultTheme);
+
+  useEffect(() => {
+    const savedTheme = window.localStorage.getItem(THEME_STORAGE_KEY);
+    if (savedTheme === "light" || savedTheme === "dark") {
+      setTheme(savedTheme);
+    }
+  }, []);
 
   const categories = useMemo(
     () => ["Todos", ...Array.from(new Set(links.map((item) => item.category)))],
@@ -161,6 +170,11 @@ export default function LinkHub({ config, links }: { config: Config; links: Link
 
   const nextTheme = theme === "dark" ? "light" : "dark";
 
+  function changeTheme() {
+    setTheme(nextTheme);
+    window.localStorage.setItem(THEME_STORAGE_KEY, nextTheme);
+  }
+
   return (
     <main className="site" data-theme={theme}>
       <div className="top-actions">
@@ -168,7 +182,7 @@ export default function LinkHub({ config, links }: { config: Config; links: Link
           className="theme-button"
           type="button"
           aria-label={`Ativar modo ${nextTheme === "light" ? "claro" : "escuro"}`}
-          onClick={() => setTheme(nextTheme)}
+          onClick={changeTheme}
         >
           <span className="theme-icon" aria-hidden="true">{theme === "dark" ? "☀" : "☾"}</span>
           <span className="theme-label">Modo {nextTheme === "light" ? "claro" : "escuro"}</span>
