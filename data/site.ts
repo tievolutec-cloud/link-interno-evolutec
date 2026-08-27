@@ -1,4 +1,5 @@
 export type LinkItem = {
+  number: number;
   title: string;
   description: string;
   url: string;
@@ -22,15 +23,7 @@ export const siteConfig = {
 
 export const links: LinkItem[] = [
   {
-    title: "Contrato dos Polos",
-    description: "Acesse a pasta com os contratos e documentos relacionados aos polos.",
-    url: "https://drive.google.com/drive/folders/1dEHAUjjj4begASnUc33MSbj4xXVsLuJt",
-    category: "Documentos",
-    icon: "contracts",
-    badge: "Drive",
-    accent: "#4285F4"
-  },
-  {
+    number: 1,
     title: "Acessar o Estatuto",
     description: "Consulte o estatuto e as normas internas da Evolutec.",
     url: "https://estatutoevolutec.base44.app/",
@@ -40,96 +33,7 @@ export const links: LinkItem[] = [
     accent: "#084469"
   },
   {
-    title: "Vídeos e Tutoriais",
-    description: "Acesse vídeos, orientações e tutoriais para a equipe.",
-    url: "https://evolutecplay.base44.app/",
-    category: "Treinamento",
-    icon: "tutorials",
-    badge: "Evolutec Play",
-    accent: "#ef4444"
-  },
-  {
-    title: "Acompanhamento dos Alunos",
-    description: "Acompanhe informações, andamento e registros dos alunos.",
-    url: "https://gestoralunosevolutec.base44.app/",
-    category: "Pedagógico",
-    icon: "students",
-    badge: "Gestão",
-    accent: "#8b5cf6"
-  },
-  {
-    title: "Calendário",
-    description: "Consulte o calendário pedagógico e os principais compromissos.",
-    url: "https://calendariopedagogico.base44.app/",
-    category: "Pedagógico",
-    icon: "calendar",
-    badge: "Calendário",
-    accent: "#f59e0b"
-  },
-  {
-    title: "Controle de Vagas",
-    description: "Acompanhe e gerencie as vagas disponíveis nos polos.",
-    url: "https://evolutec-slot-flow.base44.app/",
-    category: "Gestão",
-    icon: "slots",
-    badge: "Vagas",
-    accent: "#10b981"
-  },
-  {
-    title: "Aula Prática Farmácia",
-    description: "Acesse a planilha de organização das aulas práticas de Farmácia.",
-    url: "https://docs.google.com/spreadsheets/d/1idEJFk49aXMGf9o2nMCGfQs6tFu44cnEGu2H0TQdevY/edit?usp=drivesdk",
-    category: "Aulas práticas",
-    icon: "pharmacy",
-    badge: "Planilha",
-    accent: "#06b6d4"
-  },
-  {
-    title: "Aulas Profissionalizantes",
-    description: "Acesse os materiais e controles das aulas práticas profissionalizantes.",
-    url: "https://drive.google.com/drive/u/0/search?q=Aulas%20Pr%C3%A1ticas%20Profissionalizantes%20-%202025",
-    category: "Aulas práticas",
-    icon: "classes",
-    badge: "Drive",
-    accent: "#ec4899"
-  },
-  {
-    title: "Controle de SPC",
-    description: "Acesse a planilha de controle e acompanhamento das consultas de SPC.",
-    url: "https://docs.google.com/spreadsheets/d/16QpkqdLGV7innHF-xSlFByPCbSJ0ZELlwHn0XJY9XKQ/edit?gid=0#gid=0",
-    category: "Financeiro",
-    icon: "spc",
-    badge: "Planilha",
-    accent: "#dc2626"
-  },
-  {
-    title: "Cronograma Recepção",
-    description: "Consulte o cronograma semanal de atividades da recepção.",
-    url: "https://drive.google.com/file/d/1CRApWqppkzTNKwMfkXrfyX1FMaWi4NWe/view?usp=drivesdk",
-    category: "Recepção",
-    icon: "reception",
-    badge: "PDF",
-    accent: "#6366f1"
-  },
-  {
-    title: "Cronograma Disparo WhatsApp",
-    description: "Consulte o cronograma de disparos e ações programadas no WhatsApp.",
-    url: "https://drive.google.com/file/d/1DX0V5lEBYTnVqAHipAiIn8nnHW9KZ9Um/view?usp=drivesdk",
-    category: "Recepção",
-    icon: "whatsapp-schedule",
-    badge: "PDF",
-    accent: "#22c55e"
-  },
-  {
-    title: "Controle de Computadores",
-    description: "Acesse a planilha de inventário e controle dos computadores da Evolutec.",
-    url: "https://docs.google.com/spreadsheets/d/1Z9PWYwsBRrBcZoNglBp02azEwPiS_dt8K41ViVkVR7s/edit?usp=drivesdk",
-    category: "Tecnologia",
-    icon: "computers",
-    badge: "Planilha",
-    accent: "#2563eb"
-  },
-  {
+    number: 2,
     title: "Central de Pedidos",
     description: "Acesse a central para acompanhar pedidos, entradas e saídas de produtos.",
     url: "https://centralevolutec.base44.app/",
@@ -139,87 +43,7 @@ export const links: LinkItem[] = [
     accent: "#f97316"
   },
   {
-    title: "Apresente a Formatura",
-    description: "Acesse a apresentação oficial para condução da formatura Evolutec.",
-    url: "https://gamma.app/docs/Sua-Conquista-Merece-Ser-Celebrada-7jrlvh7tfkyr5cf",
-    category: "Formatura",
-    icon: "graduation-presentation",
-    badge: "Gamma",
-    accent: "#7c3aed"
-  },
-  {
-    title: "Formatura Evolutec - Sistema",
-    description: "Acesse o sistema de organização e gestão das formaturas da Evolutec.",
-    url: "https://formaturaevolutec.base44.app/login",
-    category: "Formatura",
-    icon: "graduation-system",
-    badge: "Base44",
-    accent: "#0f766e"
-  },
-  {
-    title: "Manual de Início de Novos Alunos",
-    description: "Consulte o protocolo de início e recepção dos novos alunos.",
-    url: "https://drive.google.com/file/d/1rnepOo68uZzMyJb2NZ5ef6_W033n-vij/view?usp=drivesdk",
-    category: "Pedagógico",
-    icon: "onboarding-manual",
-    badge: "PDF",
-    accent: "#ca8a04"
-  },
-  {
-    title: "Indicação - Controle",
-    description: "Acesse a planilha de registro e acompanhamento das indicações.",
-    url: "https://docs.google.com/spreadsheets/d/1Y9qWAZSpfzqcU-DgIugiCTypk9yISuM11V1U46yqRRE/edit?gid=0#gid=0",
-    category: "Comercial",
-    icon: "referrals",
-    badge: "Planilha",
-    accent: "#ec4899"
-  },
-  {
-    title: "Pendência Recepção",
-    description: "Acesse a planilha de controle e acompanhamento das pendências da recepção.",
-    url: "https://docs.google.com/spreadsheets/d/1u3AeW8mJTQR84XDLjt9ZbCa8eOamPdNFvM1MDte0vJ8/edit?usp=drivesdk",
-    category: "Recepção",
-    icon: "reception-pending",
-    badge: "Planilha",
-    accent: "#ef4444"
-  },
-  {
-    title: "Planilha Matrículas Comercial",
-    description: "Consulte o modelo de controle das matrículas da equipe comercial.",
-    url: "https://drive.google.com/file/d/1vXXbwqJ6MOTPB7_vQkx-basoLNE9OoGD/view?usp=drivesdk",
-    category: "Comercial",
-    icon: "enrollments",
-    badge: "PDF",
-    accent: "#06b6d4"
-  },
-  {
-    title: "PLANILHA DE INICIANTES - ALUNOS",
-    description: "Consulte a planilha de controle dos alunos iniciantes.",
-    url: "https://drive.google.com/file/d/1kDY9-Fo_NTDGgKbjjwMyUGCJsNRFrtrA/view?usp=drivesdk",
-    category: "Pedagógico",
-    icon: "beginners",
-    badge: "PDF",
-    accent: "#8b5cf6"
-  },
-  {
-    title: "Planilha de Valores 02/07/2026",
-    description: "Consulte a tabela de valores e pacotes de cursos vigente desde 02/07/2026.",
-    url: "https://drive.google.com/file/d/1kIKKVHfeNmZ5LSbaf9b5Bjr4hAnDLgJX/view?usp=drivesdk",
-    category: "Comercial",
-    icon: "pricing",
-    badge: "PDF",
-    accent: "#10b981"
-  },
-  {
-    title: "Campanha de Rematrícula - Script",
-    description: "Acesse o script e as orientações da campanha de rematrícula 2026.",
-    url: "https://drive.google.com/file/d/1Qg5AFgAAdojEFn_bzsCdMw8mAGTuxDMI/view?usp=drivesdk",
-    category: "Comercial",
-    icon: "rematriculation",
-    badge: "PDF",
-    accent: "#2563eb"
-  },
-  {
+    number: 3,
     title: "Controle de Resultados",
     description: "Acesse o sistema para acompanhar e controlar os resultados da Evolutec.",
     url: "https://resultadoevolutec.base44.app/",
@@ -229,15 +53,207 @@ export const links: LinkItem[] = [
     accent: "#10b981"
   },
   {
-    title: "Fotos pra Crachá",
-    description: "Acesse a pasta compartilhada com as fotos destinadas à produção dos crachás.",
-    url: "https://onedrive.live.com/shared?id=%2Fpersonal%2F9bec3c382d426941%2FDocuments%2FDocuments%2FEVOLUTEC%2Fcrach%C3%A1%2FFOTOS%20PARA%20CRACH%C3%81&listurl=%2Fpersonal%2F9bec3c382d426941%2FDocuments",
-    category: "Documentos",
-    icon: "badge-photos",
-    badge: "OneDrive",
-    accent: "#0ea5e9"
+    number: 4,
+    title: "Formatura Evolutec - Sistema",
+    description: "Acesse o sistema de organização e gestão das formaturas da Evolutec.",
+    url: "https://formaturaevolutec.base44.app/login",
+    category: "Formatura",
+    icon: "graduation-system",
+    badge: "Base44",
+    accent: "#0f766e"
   },
   {
+    number: 5,
+    title: "Pendência Recepção",
+    description: "Acesse a planilha de controle e acompanhamento das pendências da recepção.",
+    url: "https://docs.google.com/spreadsheets/d/1u3AeW8mJTQR84XDLjt9ZbCa8eOamPdNFvM1MDte0vJ8/edit?usp=drivesdk",
+    category: "Recepção",
+    icon: "reception-pending",
+    badge: "Planilha",
+    accent: "#ef4444"
+  },
+  {
+    number: 6,
+    title: "Vídeos e Tutoriais",
+    description: "Acesse vídeos, orientações e tutoriais para a equipe.",
+    url: "https://evolutecplay.base44.app/",
+    category: "Treinamento",
+    icon: "tutorials",
+    badge: "Evolutec Play",
+    accent: "#ef4444"
+  },
+  {
+    number: 7,
+    title: "Apresente a Formatura",
+    description: "Acesse a apresentação oficial para condução da formatura Evolutec.",
+    url: "https://gamma.app/docs/Sua-Conquista-Merece-Ser-Celebrada-7jrlvh7tfkyr5cf",
+    category: "Formatura",
+    icon: "graduation-presentation",
+    badge: "Gamma",
+    accent: "#7c3aed"
+  },
+  {
+    number: 8,
+    title: "Acompanhamento dos Alunos",
+    description: "Acompanhe informações, andamento e registros dos alunos.",
+    url: "https://gestoralunosevolutec.base44.app/",
+    category: "Pedagógico",
+    icon: "students",
+    badge: "Gestão",
+    accent: "#8b5cf6"
+  },
+  {
+    number: 9,
+    title: "Controle de Vagas",
+    description: "Acompanhe e gerencie as vagas disponíveis nos polos.",
+    url: "https://evolutec-slot-flow.base44.app/",
+    category: "Gestão",
+    icon: "slots",
+    badge: "Vagas",
+    accent: "#10b981"
+  },
+  {
+    number: 10,
+    title: "Contrato dos Polos",
+    description: "Acesse a pasta com os contratos e documentos relacionados aos polos.",
+    url: "https://drive.google.com/drive/folders/1dEHAUjjj4begASnUc33MSbj4xXVsLuJt",
+    category: "Documentos",
+    icon: "contracts",
+    badge: "Drive",
+    accent: "#4285F4"
+  },
+  {
+    number: 11,
+    title: "Calendário",
+    description: "Consulte o calendário pedagógico e os principais compromissos.",
+    url: "https://calendariopedagogico.base44.app/",
+    category: "Pedagógico",
+    icon: "calendar",
+    badge: "Calendário",
+    accent: "#f59e0b"
+  },
+  {
+    number: 12,
+    title: "Cronograma Disparo WhatsApp",
+    description: "Consulte o cronograma de disparos e ações programadas no WhatsApp.",
+    url: "https://drive.google.com/file/d/1DX0V5lEBYTnVqAHipAiIn8nnHW9KZ9Um/view?usp=drivesdk",
+    category: "Recepção",
+    icon: "whatsapp-schedule",
+    badge: "PDF",
+    accent: "#22c55e"
+  },
+  {
+    number: 13,
+    title: "Cronograma Recepção",
+    description: "Consulte o cronograma semanal de atividades da recepção.",
+    url: "https://drive.google.com/file/d/1CRApWqppkzTNKwMfkXrfyX1FMaWi4NWe/view?usp=drivesdk",
+    category: "Recepção",
+    icon: "reception",
+    badge: "PDF",
+    accent: "#6366f1"
+  },
+  {
+    number: 14,
+    title: "Indicação - Controle",
+    description: "Acesse a planilha de registro e acompanhamento das indicações.",
+    url: "https://docs.google.com/spreadsheets/d/1Y9qWAZSpfzqcU-DgIugiCTypk9yISuM11V1U46yqRRE/edit?gid=0#gid=0",
+    category: "Comercial",
+    icon: "referrals",
+    badge: "Planilha",
+    accent: "#ec4899"
+  },
+  {
+    number: 15,
+    title: "Manual de Início de Novos Alunos",
+    description: "Consulte o protocolo de início e recepção dos novos alunos.",
+    url: "https://drive.google.com/file/d/1rnepOo68uZzMyJb2NZ5ef6_W033n-vij/view?usp=drivesdk",
+    category: "Pedagógico",
+    icon: "onboarding-manual",
+    badge: "PDF",
+    accent: "#ca8a04"
+  },
+  {
+    number: 16,
+    title: "PLANILHA DE INICIANTES - ALUNOS",
+    description: "Consulte a planilha de controle dos alunos iniciantes.",
+    url: "https://drive.google.com/file/d/1kDY9-Fo_NTDGgKbjjwMyUGCJsNRFrtrA/view?usp=drivesdk",
+    category: "Pedagógico",
+    icon: "beginners",
+    badge: "PDF",
+    accent: "#8b5cf6"
+  },
+  {
+    number: 17,
+    title: "Planilha de Valores 02/07/2026",
+    description: "Consulte a tabela de valores e pacotes de cursos vigente desde 02/07/2026.",
+    url: "https://drive.google.com/file/d/1kIKKVHfeNmZ5LSbaf9b5Bjr4hAnDLgJX/view?usp=drivesdk",
+    category: "Comercial",
+    icon: "pricing",
+    badge: "PDF",
+    accent: "#10b981"
+  },
+  {
+    number: 18,
+    title: "Planilha Matrículas Comercial",
+    description: "Consulte o modelo de controle das matrículas da equipe comercial.",
+    url: "https://drive.google.com/file/d/1vXXbwqJ6MOTPB7_vQkx-basoLNE9OoGD/view?usp=drivesdk",
+    category: "Comercial",
+    icon: "enrollments",
+    badge: "PDF",
+    accent: "#06b6d4"
+  },
+  {
+    number: 19,
+    title: "Controle de Computadores",
+    description: "Acesse a planilha de inventário e controle dos computadores da Evolutec.",
+    url: "https://docs.google.com/spreadsheets/d/1Z9PWYwsBRrBcZoNglBp02azEwPiS_dt8K41ViVkVR7s/edit?usp=drivesdk",
+    category: "Tecnologia",
+    icon: "computers",
+    badge: "Planilha",
+    accent: "#2563eb"
+  },
+  {
+    number: 20,
+    title: "Campanha de Rematrícula - Script",
+    description: "Acesse o script e as orientações da campanha de rematrícula 2026.",
+    url: "https://drive.google.com/file/d/1Qg5AFgAAdojEFn_bzsCdMw8mAGTuxDMI/view?usp=drivesdk",
+    category: "Comercial",
+    icon: "rematriculation",
+    badge: "PDF",
+    accent: "#2563eb"
+  },
+  {
+    number: 21,
+    title: "Aulas Profissionalizantes",
+    description: "Acesse os materiais e controles das aulas práticas profissionalizantes.",
+    url: "https://drive.google.com/drive/u/0/search?q=Aulas%20Pr%C3%A1ticas%20Profissionalizantes%20-%202025",
+    category: "Aulas práticas",
+    icon: "classes",
+    badge: "Drive",
+    accent: "#ec4899"
+  },
+  {
+    number: 22,
+    title: "Aula Prática Farmácia",
+    description: "Acesse a planilha de organização das aulas práticas de Farmácia.",
+    url: "https://docs.google.com/spreadsheets/d/1idEJFk49aXMGf9o2nMCGfQs6tFu44cnEGu2H0TQdevY/edit?usp=drivesdk",
+    category: "Aulas práticas",
+    icon: "pharmacy",
+    badge: "Planilha",
+    accent: "#06b6d4"
+  },
+  {
+    number: 23,
+    title: "Controle de SPC",
+    description: "Acesse a planilha de controle e acompanhamento das consultas de SPC.",
+    url: "https://docs.google.com/spreadsheets/d/16QpkqdLGV7innHF-xSlFByPCbSJ0ZELlwHn0XJY9XKQ/edit?gid=0#gid=0",
+    category: "Financeiro",
+    icon: "spc",
+    badge: "Planilha",
+    accent: "#dc2626"
+  },
+  {
+    number: 24,
     title: "#Para Todos Instrutores",
     description: "Acesse a pasta compartilhada com materiais e arquivos destinados a todos os instrutores.",
     url: "https://onedrive.live.com/shared?id=%2Fpersonal%2Fb1ae0066d4fb544f%2FDocuments%2FDRIVE%20%2D%20INSTRUTOR%2F%23PARA%20TODOS%23&listurl=%2Fpersonal%2Fb1ae0066d4fb544f%2FDocuments&ithint=folder&e=iRdVou&migratedtospo=true&ga=1",
@@ -245,5 +261,15 @@ export const links: LinkItem[] = [
     icon: "instructors",
     badge: "OneDrive",
     accent: "#8b5cf6"
+  },
+  {
+    number: 25,
+    title: "Fotos pra Crachá",
+    description: "Acesse a pasta compartilhada com as fotos destinadas à produção dos crachás.",
+    url: "https://onedrive.live.com/shared?id=%2Fpersonal%2F9bec3c382d426941%2FDocuments%2FDocuments%2FEVOLUTEC%2Fcrach%C3%A1%2FFOTOS%20PARA%20CRACH%C3%81&listurl=%2Fpersonal%2F9bec3c382d426941%2FDocuments",
+    category: "Documentos",
+    icon: "badge-photos",
+    badge: "OneDrive",
+    accent: "#0ea5e9"
   }
 ];

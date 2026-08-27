@@ -335,7 +335,9 @@ export default function LinkHub({ config, links }: { config: Config; links: Link
 
   const filtered = useMemo(() => {
     const normalized = query.trim().toLowerCase();
-    return links.filter((item) => {
+    return [...links]
+      .sort((a, b) => a.number - b.number)
+      .filter((item) => {
       const categoryMatches = category === "Todos" || item.category === category;
       const textMatches =
         !normalized ||
@@ -422,7 +424,10 @@ export default function LinkHub({ config, links }: { config: Config; links: Link
               </div>
               <div className="card-content">
                 <div className="card-heading">
-                  <h2>{item.title}</h2>
+                  <div className="card-title-group">
+                    <span className="card-number">{item.number}</span>
+                    <h2>{item.title}</h2>
+                  </div>
                   <span className="arrow">↗</span>
                 </div>
                 <p>{item.description}</p>
