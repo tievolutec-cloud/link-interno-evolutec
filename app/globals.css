@@ -101,7 +101,7 @@ button, input { font: inherit; }
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid #fff;
-  box-shadow: 0 0 0 3px #8b5cf6, 0 8px 24px rgba(139,92,246,.22);
+  box-shadow: 0 0 0 3px #facc15, 0 8px 24px rgba(250,204,21,.22);
 }
 .status-dot {
   position: absolute;
@@ -287,7 +287,7 @@ footer { text-align: center; color: var(--muted); font-size: .72rem; padding-top
     gap: 10px;
     align-items: center;
   }
-  .avatar { width: 54px; height: 54px; border-width: 2px; box-shadow: 0 0 0 2px #8b5cf6, 0 6px 18px rgba(139,92,246,.20); }
+  .avatar { width: 54px; height: 54px; border-width: 2px; box-shadow: 0 0 0 2px #facc15, 0 6px 18px rgba(250,204,21,.20); }
   .status-dot { width: 12px; height: 12px; border-width: 2px; bottom: 2px; }
   .profile h1 { font-size: 1.12rem; margin-bottom: 1px; }
   .username { font-size: .73rem; margin-bottom: 2px; }
