@@ -127,6 +127,137 @@ function HubIcon({ name }: { name: string }) {
         </svg>
       );
 
+    case "spc":
+      return (
+        <svg {...iconProps}>
+          <path d="M12 3 5 6v5c0 4.6 2.9 8.4 7 10 4.1-1.6 7-5.4 7-10V6z" />
+          <circle cx="12" cy="10" r="2.4" />
+          <path d="M8.5 16a3.5 3.5 0 0 1 7 0" />
+        </svg>
+      );
+
+    case "computers":
+      return (
+        <svg {...iconProps}>
+          <rect x="3" y="4" width="18" height="13" rx="2.5" />
+          <path d="M8 21h8" />
+          <path d="M12 17v4" />
+          <path d="M7 8h10" />
+          <path d="M7 12h5" />
+        </svg>
+      );
+
+    case "orders":
+      return (
+        <svg {...iconProps}>
+          <path d="m4 7 8-4 8 4-8 4z" />
+          <path d="M4 7v10l8 4 8-4V7" />
+          <path d="M12 11v10" />
+          <path d="m8 5 8 4" />
+        </svg>
+      );
+
+    case "graduation-presentation":
+      return (
+        <svg {...iconProps}>
+          <path d="m3 9 9-5 9 5-9 5z" />
+          <path d="M7 12v4c2.7 2.1 7.3 2.1 10 0v-4" />
+          <path d="M21 9v6" />
+          <path d="M5 21h14" />
+        </svg>
+      );
+
+    case "whatsapp-schedule":
+      return (
+        <svg {...iconProps}>
+          <rect x="3" y="4" width="15" height="16" rx="2.5" />
+          <path d="M7 2v4" />
+          <path d="M14 2v4" />
+          <path d="M3 9h15" />
+          <path d="M20.5 12.5a4 4 0 0 0-6.5 4.6L13.5 21l3.7-.7a4 4 0 0 0 3.3-7.8Z" />
+          <path d="M17 15.2c.5 1 1.2 1.7 2.2 2.2" />
+        </svg>
+      );
+
+    case "graduation-system":
+      return (
+        <svg {...iconProps}>
+          <path d="m3 8 9-5 9 5-9 5z" />
+          <path d="M7 11v4c2.8 2.1 7.2 2.1 10 0v-4" />
+          <circle cx="18" cy="18" r="3" />
+          <path d="M18 13.5V15" />
+          <path d="M18 21v1.5" />
+          <path d="m14.8 14.8 1 1" />
+          <path d="m20.2 20.2 1 1" />
+        </svg>
+      );
+
+    case "onboarding-manual":
+      return (
+        <svg {...iconProps}>
+          <path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H11v17H6.5A2.5 2.5 0 0 0 4 22z" />
+          <path d="M20 5.5A2.5 2.5 0 0 0 17.5 3H13v17h4.5A2.5 2.5 0 0 1 20 22z" />
+          <path d="m15.5 9 1.4 1.4L20 7.3" />
+        </svg>
+      );
+
+    case "referrals":
+      return (
+        <svg {...iconProps}>
+          <circle cx="8" cy="8" r="3" />
+          <path d="M2.5 19a5.5 5.5 0 0 1 11 0" />
+          <circle cx="17.5" cy="7.5" r="2.5" />
+          <path d="M16 18.5a4.5 4.5 0 0 1 6-4.2" />
+          <path d="M18.5 11v4" />
+          <path d="M16.5 13h4" />
+        </svg>
+      );
+
+    case "reception-pending":
+      return (
+        <svg {...iconProps}>
+          <path d="M3 20h18" />
+          <path d="M5 20v-6h8v6" />
+          <path d="M7 14v-2a2 2 0 0 1 4 0v2" />
+          <circle cx="9" cy="6" r="2" />
+          <rect x="14" y="4" width="7" height="11" rx="1.5" />
+          <path d="M17.5 7v3" />
+          <path d="M17.5 12h.01" />
+        </svg>
+      );
+
+    case "enrollments":
+      return (
+        <svg {...iconProps}>
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+          <path d="M14 2v6h6" />
+          <circle cx="10" cy="13" r="2" />
+          <path d="M7 18a3 3 0 0 1 6 0" />
+          <path d="M16 13v4" />
+          <path d="M14 15h4" />
+        </svg>
+      );
+
+    case "beginners":
+      return (
+        <svg {...iconProps}>
+          <circle cx="8" cy="8" r="3" />
+          <path d="M2.5 20a5.5 5.5 0 0 1 11 0" />
+          <path d="M16 21V4" />
+          <path d="M16 5h5l-2 3 2 3h-5" />
+        </svg>
+      );
+
+    case "pricing":
+      return (
+        <svg {...iconProps}>
+          <path d="M20.5 13.5 13.5 20.5a2 2 0 0 1-2.8 0L3.5 13.3a2 2 0 0 1 0-2.8L10.5 3.5H18a2 2 0 0 1 2 2V13a2 2 0 0 1-.5 1.5Z" />
+          <circle cx="15.5" cy="8" r="1.5" />
+          <path d="M8 13h6" />
+          <path d="M11 10v6" />
+        </svg>
+      );
+
     default:
       return (
         <svg {...iconProps}>

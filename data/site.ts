@@ -94,6 +94,15 @@ export const links: LinkItem[] = [
     accent: "#ec4899"
   },
   {
+    title: "Controle de SPC",
+    description: "Acesse a planilha de controle e acompanhamento das consultas de SPC.",
+    url: "https://docs.google.com/spreadsheets/d/16QpkqdLGV7innHF-xSlFByPCbSJ0ZELlwHn0XJY9XKQ/edit?gid=0#gid=0",
+    category: "Financeiro",
+    icon: "spc",
+    badge: "Planilha",
+    accent: "#dc2626"
+  },
+  {
     title: "Cronograma Recepção",
     description: "Consulte o cronograma semanal de atividades da recepção.",
     url: "https://drive.google.com/file/d/1CRApWqppkzTNKwMfkXrfyX1FMaWi4NWe/view?usp=drivesdk",
@@ -101,5 +110,104 @@ export const links: LinkItem[] = [
     icon: "reception",
     badge: "PDF",
     accent: "#6366f1"
+  },
+  {
+    title: "Cronograma Disparo WhatsApp",
+    description: "Consulte o cronograma de disparos e ações programadas no WhatsApp.",
+    url: "https://drive.google.com/file/d/1DX0V5lEBYTnVqAHipAiIn8nnHW9KZ9Um/view?usp=drivesdk",
+    category: "Recepção",
+    icon: "whatsapp-schedule",
+    badge: "PDF",
+    accent: "#22c55e"
+  },
+  {
+    title: "Controle de Computadores",
+    description: "Acesse a planilha de inventário e controle dos computadores da Evolutec.",
+    url: "https://docs.google.com/spreadsheets/d/1Z9PWYwsBRrBcZoNglBp02azEwPiS_dt8K41ViVkVR7s/edit?usp=drivesdk",
+    category: "Tecnologia",
+    icon: "computers",
+    badge: "Planilha",
+    accent: "#2563eb"
+  },
+  {
+    title: "Central de Pedidos",
+    description: "Acesse a central para acompanhar pedidos, entradas e saídas de produtos.",
+    url: "https://centralevolutec.base44.app/",
+    category: "Gestão",
+    icon: "orders",
+    badge: "Base44",
+    accent: "#f97316"
+  },
+  {
+    title: "Apresente a Formatura",
+    description: "Acesse a apresentação oficial para condução da formatura Evolutec.",
+    url: "https://gamma.app/docs/Sua-Conquista-Merece-Ser-Celebrada-7jrlvh7tfkyr5cf",
+    category: "Formatura",
+    icon: "graduation-presentation",
+    badge: "Gamma",
+    accent: "#7c3aed"
+  },
+  {
+    title: "Formatura Evolutec - Sistema",
+    description: "Acesse o sistema de organização e gestão das formaturas da Evolutec.",
+    url: "https://formaturaevolutec.base44.app/login",
+    category: "Formatura",
+    icon: "graduation-system",
+    badge: "Base44",
+    accent: "#0f766e"
+  },
+  {
+    title: "Manual de Início de Novos Alunos",
+    description: "Consulte o protocolo de início e recepção dos novos alunos.",
+    url: "https://drive.google.com/file/d/1rnepOo68uZzMyJb2NZ5ef6_W033n-vij/view?usp=drivesdk",
+    category: "Pedagógico",
+    icon: "onboarding-manual",
+    badge: "PDF",
+    accent: "#ca8a04"
+  },
+  {
+    title: "Indicação - Controle",
+    description: "Acesse a planilha de registro e acompanhamento das indicações.",
+    url: "https://docs.google.com/spreadsheets/d/1Y9qWAZSpfzqcU-DgIugiCTypk9yISuM11V1U46yqRRE/edit?gid=0#gid=0",
+    category: "Comercial",
+    icon: "referrals",
+    badge: "Planilha",
+    accent: "#ec4899"
+  },
+  {
+    title: "Pendência Recepção",
+    description: "Acesse a planilha de controle e acompanhamento das pendências da recepção.",
+    url: "https://docs.google.com/spreadsheets/d/1u3AeW8mJTQR84XDLjt9ZbCa8eOamPdNFvM1MDte0vJ8/edit?usp=drivesdk",
+    category: "Recepção",
+    icon: "reception-pending",
+    badge: "Planilha",
+    accent: "#ef4444"
+  },
+  {
+    title: "Planilha Matrículas Comercial",
+    description: "Consulte o modelo de controle das matrículas da equipe comercial.",
+    url: "https://drive.google.com/file/d/1vXXbwqJ6MOTPB7_vQkx-basoLNE9OoGD/view?usp=drivesdk",
+    category: "Comercial",
+    icon: "enrollments",
+    badge: "PDF",
+    accent: "#06b6d4"
+  },
+  {
+    title: "PLANILHA DE INICIANTES - ALUNOS",
+    description: "Consulte a planilha de controle dos alunos iniciantes.",
+    url: "https://drive.google.com/file/d/1kDY9-Fo_NTDGgKbjjwMyUGCJsNRFrtrA/view?usp=drivesdk",
+    category: "Pedagógico",
+    icon: "beginners",
+    badge: "PDF",
+    accent: "#8b5cf6"
+  },
+  {
+    title: "Planilha de Valores 02/07/2026",
+    description: "Consulte a tabela de valores e pacotes de cursos vigente desde 02/07/2026.",
+    url: "https://drive.google.com/file/d/1kIKKVHfeNmZ5LSbaf9b5Bjr4hAnDLgJX/view?usp=drivesdk",
+    category: "Comercial",
+    icon: "pricing",
+    badge: "PDF",
+    accent: "#10b981"
   }
 ];
