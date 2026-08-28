@@ -106,7 +106,7 @@ export const links: LinkItem[] = [
     number: 9,
     title: "Controle de Vagas",
     description: "Acompanhe e gerencie as vagas disponíveis nos polos.",
-    url: "https://evolutec-slot-flow.base44.app/",
+    url: "https://controle-de-vagas.base44.app/",
     category: "Gestão",
     icon: "slots",
     badge: "Vagas",
