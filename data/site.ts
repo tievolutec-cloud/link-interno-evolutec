@@ -271,5 +271,15 @@ export const links: LinkItem[] = [
     icon: "badge-photos",
     badge: "OneDrive",
     accent: "#0ea5e9"
+  },
+  {
+    number: 26,
+    title: "Treinamento de Vendas",
+    description: "Acesse o material de treinamento de vendas da equipe Evolutec.",
+    url: "https://drive.google.com/file/d/1ySvKKo4C6VxZqrocBxYOFMEzjUNhEwvT/view?usp=drivesdk",
+    category: "Treinamento",
+    icon: "tutorials",
+    badge: "PDF",
+    accent: "#f59e0b"
   }
 ];
